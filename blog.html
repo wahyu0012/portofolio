@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv wahyu</title>
+    <link rel="icon" href="images/ww.jpg" type="images">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        h1, h2, h3, h4, h5 {
+            color: #2c3e50;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .kotak-warna {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            color: white;
+        }
+        
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Materi HTML</h1>
+    <nav>
+        <a href="#atribut">Atribut HTML</a> |
+        <a href="#heading">Heading HTML</a> |
+        <a href="#paragraps">Paragraf HTML</a> |
+        <a href="#style">Style HTML</a> |
+        <a href="#kampus">HTML Text Formatting</a> |
+        <a href="#quotation">HTML Quotation</a> |
+        <a href="#comments">HTML Comments</a> |
+        <a href="#colors">HTML Colors</a> |
+        <a href="#link">HTML link</a> |
+        <a href="#images">HTML images</a> |
+        <a href="#tables">Tabel HTML</a>
+    </nav>
+
+    <hr>
+
+    <section id="atribut">
+        <h2>Atribut HTML</h2>
+        <p>1. Atribut <code>&lt;a href&gt;</code> (link)</p>
+        <a href="https://www.instagram.com/dyno0?igsh=aHpsb2k5MWZxdzdt" target="_blank" class="btn">Instagram saya</a>
+
+        <p>2. Atribut <code>&lt;img src&gt;</code> (menampilkan gambar)</p>
+        <img src="images/why.jpg" width="100" height="120" alt="foto diri">
+
+        <p>3. Menggunakan <code>style</code> (mengubah warna tulisan)</p>
+        <p style="color: black; padding: 10px; background-color: #f9f9f9;">This is a black paragraph.</p>  
+    </section>
+
+    <hr>
+
+    <section id="heading">
+        <h2>Heading HTML</h2>
+        <h5>Ini Heading 1</h5>
+        <p>Nama : I Komang Wahyu Kurniawan</p>
+
+        <h4>Ini Heading 2</h4>
+        <p>Nama panggilan : Wahyu</p>
+
+        <h3>Ini Heading 3</h3>
+        <p>Tanggal lahir : 10 Februari 2006</p>
+
+        <h2>Ini Heading 4</h2>
+        <p>Umur : 19 tahun</p>
+
+        <h1>Ini Heading 5</h1>
+        <p>Kuliah : Politeknik Negeri Bali</p>
+    </section>
+
+    <hr>
+
+    <section id="style">
+        <h2>Style dalam HTML</h2>
+        <p>Dalam HTML, atribut <code>style</code> digunakan untuk menambahkan gaya langsung pada elemen HTML. Gaya ini ditulis dalam bentuk properti CSS dan nilainya.</p>
+
+        <div class="kotak-warna" style="background-color: #e74c3c;">
+            <p style="color: white;">Tulisan ini berwarna merah.</p>
+        </div>
+        
+        <div class="kotak-warna" style="background-color: #3498db;">
+            <p style="color: white;">kalo ini warna biru.</p>
+        </div>
+        
+        <p style="font-size: 20px; color: #2c3e50;">ukuran ini gedenya 20 piksel.</p>
+        <p style="font-family: 'Courier New', monospace;">fontnya ini namanya Courier New.</p>
+        <p style="text-align: center; background-color: #f39c12; padding: 10px; color: white;">Teks ini ada di tengah.</p>
+        <p style="background-color: #f1c40f; padding: 10px;">Tulisan ini memiliki latar belakang kuning.</p>
+    </section>
+
+    <hr>
+
+    <section id="kampus">
+        <h2>Profil Pendidikan</h2>
+        
+        <p>Saat ini saya menempuh pendidikan tinggi di <strong>Politeknik Negeri Bali</strong>, 
+        sebuah perguruan tinggi vokasi ternama yang berlokasi di Bukit Jimbaran, Badung, Bali.</p>
+        
+        <p>Kampus yang berdiri sejak tahun 1997 ini memiliki visi menjadi <em>pusat pendidikan vokasi 
+        unggulan di bidang pariwisata dan teknologi</em> dengan fasilitas modern dan kurikulum berbasis kompetensi.</p>
+    
+        <p>Sebagai mahasiswa <mark style="background-color: #9b59b6; color: white; padding: 2px 5px;">Program Studi Teknologi informasi</mark>, saya mengambil jurusan  
+        <ins>teknologi rekayasa perangkat lunak</ins>, yang sangat relevan dengan 
+        perkembangan teknologi yang ada.</p>
+    
+        <p>Politeknik Negeri Bali menawarkan berbagai program studi unggulan seperti:</p>
+        <ul>
+            <li><b>Teknik Elektro</b> (D4)</li>
+            <li><b>Teknologi Informasi</b> (D4)</li>
+            <li><b>Administrasi Bisnis</b> (D4)</li>
+            <li><b>Akuntansi</b> (D4)</li>
+            <li><b>Bisnis Pariwisata</b> (D4)</li>
+        </ul>
+    
+        <p>Saya berkuliah di politeknik negeri bali ini dengan harapan saya bisa <q>kaya</q> yang berarti <i>finansial freedom</i></p>
+    </section>
+
+    <hr>
+
+    <section id="quotation">
+        <h2>HTML Quotation</h2>
+        
+        <h3>Singkatan</h3>
+        <p><abbr title="Persatuan Bulutangkis Seluruh Indonesia" style="text-decoration: none; border-bottom: 1px dotted;">PBSI</abbr> adalah organisasi bulutangkis nasional.</p>
+
+        <h3>Alamat</h3>
+        <address style="font-style: normal; background-color: #f9f9f9; padding: 10px; border-left: 3px solid #3498db;">
+            Tempat Latihan:<br>
+            GOR Bulutangkis JBJ<br>
+            Jl. KAMPUS UNUD
+        </address>
+
+        <h3>Teks Terbalik</h3>
+        <p>Teknik <bdo dir="rtl">smash</bdo> adalah pukulan keras.</p>
+
+        <h3>Kutipan Panjang</h3>
+        <blockquote style="border-left: 4px solid #2ecc71; padding-left: 15px; margin-left: 0;">
+            "Bulutangkis bukan hanya soal fisik, tapi juga strategi dan mental yang kuat."
+            <footer style="text-align: right; font-style: italic;">- Susi Susanti, Peraih Emas Olimpiade</footer>
+        </blockquote>
+
+        <h3>Referensi</h3>
+        <p>Saya belajar dari buku <cite>Dasar-Dasar Bulutangkis Modern</cite>.</p>
+
+        <h3>Kutipan Pendek</h3>
+        <p>Pelatih selalu bilang: <q style="color: #e74c3c;">Latihan yang konsisten adalah kunci keberhasilan</q>.</p>
+    </section>
+
+    <hr>
+
+    <section id="comments">
+        <h2>HTML Comments</h2>
+        <p>Ini paragraf yang terlihat.</p>
+        
+        <!-- 
+          Ini komentar multi-baris
+          Berguna untuk penjelasan panjang
+          Bisa mematikan kode sementara:
+          <p>Paragraf yang dinonaktifkan</p>
+        -->
+        
+        <p style="color:red; background-color: #ffeeee; padding: 5px;">Ini teks penting! <small>(warna merah sebagai peringatan)</small></p>
+    </section>
+
+    <hr>
+
+    <section id="colors">
+        <h2>HTML Colors</h2>
+        
+        <h3>contoh contoh warna</h3>
+        <div class="kotak-warna" style="background-color: tomato;">
+            warna jeruk
+        </div>
+
+        <h3>contoh contoh warna</h3>
+        <div class="kotak-warna" style="background-color: #1e90ff;">
+            warna biru 
+        </div>
+
+        <h3>contoh contoh warna</h3>
+        <div class="kotak-warna" style="background-color: rgb(60, 179, 113);">
+            warna ijo
+        </div>
+
+        <h3>Warna Border</h3>
+        <div style="border: 3px solid #ffa500; padding: 10px; margin: 10px 0;">
+            Border jeruk
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="link"> 
+        <h2>Link Instagram</h2>
+        <a href="https://www.instagram.com/dyno0?igsh=aHpsb2k5MWZxdzdt">Instagram Saya</a>
+    </section>
+
+    <section>
+        <h2>Link Instagram</h2>
+        <a href="https://www.instagram.com/dyno0?igsh=aHpsb2k5MWZxdzdt" target="_blank" class="btn">
+            Buka Instagram di Tab Baru
+        </a>
+    </section>
+
+    <section>
+        <h2>Gambar sebagai Link</h2>
+        <a href="https://www.instagram.com/dyno0?igsh=aHpsb2k5MWZxdzdt" target="_blank">
+            <img src="images/ig.jpg" alt="Instagram" width="100">
+        </a>
+    </section>
+
+    <section>
+        <h2>Link Email</h2>
+        <a href="mailto:wahyukrn297@gmail.com">Kirim Email ke Saya</a>
+    </section>
+
+    <section id="images">
+        <h2>html images</h2>
+        <img src="images/pnb3.jpg" width="300" alt="Logo Politeknik Negeri Bali"> 
+        <p>Ini adalah logo politeknik negeri Bali</p>
+    </section>
+    
+    <section>
+        <h2>Penerimaan Mahasiswa Baru Tahun 2025</h2>
+        <img src="images/pnb 2.jpg" alt="Penerimaan Mahasiswa Baru">
+    </section>
+
+    <hr>
+
+    <section id="tables">
+        <h2>HTML Tables</h2>
+        
+        <h3>Tabel Dasar</h3>
+        <table>
+            <tr>
+                <th>nama</th>
+                <th>jurusan</th>
+                <th>semester</th>
+            </tr>
+            <tr>
+                <td>wahyu</td>
+                <td>teknologi informasi</td>
+                <td>2</td>
+            </tr>
+        </table>
+        
+        <h3>Tabel dengan Border</h3>
+        <table style="border: 2px solid #7f8c8d;">
+            <tr>
+                <th>bulan</th>
+                <th>pengeluaran</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>1 juta</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>1 juta</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
