@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #333333;
+}
+
+section {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.kotak-warna {
+    background-color: #888888;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+code {
+    background-color: #dddddd;
+    padding: 2px 4px;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: #cccccc;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}

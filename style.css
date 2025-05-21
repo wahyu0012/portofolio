@@ -1,0 +1,74 @@
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        h1, h2, h3, h4, h5 {
+            color: #2c3e50;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .kotak-warna {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            color: white;
+        }
+        
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #a40e0e;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #bc1919;
+            color: rgb(20, 198, 136);
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        
+        .btn:hover {
+            background-color: #e9e2e2;
+        }
